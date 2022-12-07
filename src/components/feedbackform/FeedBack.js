@@ -52,6 +52,7 @@ class FeedBack extends Component {
         this.countTotalFeedback();
         this.countPositiveFeedbackPercentage();
         
+        
     };
 
     handleIncrementBad = evt => {
