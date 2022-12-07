@@ -1,4 +1,4 @@
-import FeedBack from "./feedbackform/FeedBack";
+import FeedBack from "./feedbackForm/FeedBack";
 
 export const App = () => {
   return (
