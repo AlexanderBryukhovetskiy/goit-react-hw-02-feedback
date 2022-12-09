@@ -1,5 +1,5 @@
 import React, { Component }  from "react";
-import css from './task1.module.css';
+import css from './Feedback.module.css';
 import PropTypes from 'prop-types';
 
 
