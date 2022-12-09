@@ -1,5 +1,5 @@
 import React, { Component }  from "react";
-import css from './FeedBack.module.css';
+import css from './task1.module.css';
 import PropTypes from 'prop-types';
 
 
@@ -68,8 +68,10 @@ class FeedBack extends Component {
     countTotalFeedback = evt =>{
         console.log('countTotalFeedback() was initiated');
         this.setState(prevState => {
+            console.log('prevState in countTotalFeedback:', prevState);
             return {totalFeedback: prevState.totalFeedback +=1}
         });
+        
         console.log('countTotalFeedback(): setState function called');
         console.log('this.state.totalFeedback after setState function: ', this.state.totalFeedback);
     };
