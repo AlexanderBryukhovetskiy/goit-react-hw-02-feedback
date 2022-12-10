@@ -28,15 +28,12 @@ const FeedbackOptions = (options, onLeaveFeedback) => {
         
     // };
 
-        return (<div className={css.feedbackBlock}>
+        return (
+                <div className={css.buttonsList}>
                     {options.map( ({key}) => (
-                    
-                        <div className={css.buttonsList}>
-                            <button type="button"
-                                    onLeaveFeedback
-                            >{key}</button>
-                            
-                        </div>
+                        <button type="button"
+                                onLeaveFeedback
+                        >{key}</button>
                     ))}
                 </div>
         )
