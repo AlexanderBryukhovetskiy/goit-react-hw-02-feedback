@@ -10,14 +10,17 @@ class FeedBack extends Component {
         good: 0,
         neutral: 0,
         bad: 0,
-        // totalFeedback: 0,
-        // positiveFeedbackPercentage: 0
+        totalFeedback: 0,
+        positiveFeedbackPercentage: 0
     };
+    
 
     static propTypes = {
         good: PropTypes.number,
         neutral: PropTypes.number,
         bad: PropTypes.number,
+        totalFeedback: PropTypes.number,
+        positiveFeedbackPercentage: PropTypes.number
     };
 
     state = {
@@ -56,22 +59,30 @@ class FeedBack extends Component {
     };
 
     // refs = {
-    //     totalFeedback: 0,
-    //     positiveFeedbackPercentage: 0
+    //     totalFeedback: this.props.totalFeedback,
+    //     positiveFeedbackPercentage: this.props.positiveFeedbackPercentage
+    // };
 
-    // }
     countTotalFeedback = evt =>{
         const totalFeedback = this.state.good + this.state.neutral + this.state.bad;
-        console.log('totalFeedback', totalFeedback );
-        return totalFeedback
+        
+        console.log("totalFeedback in countTotalFeedback() :", totalFeedback);
+
+        //this.props.totalFeedback = totalFeedback;
+        
+        return (totalFeedback);          //????????????????????????????
     };
         
     countPositiveFeedbackPercentage = evt => {
         const total = this.countTotalFeedback();
-        // console.log("totalFeedback in countPositiveFeedbackPercentage:", total);
+        console.log("totalFeedback in countPositiveFeedbackPercentage:", total);
+
         const positiveFeedbackPercentage = this.state.good/total*100;
-        console.log('positivePercent: ', positiveFeedbackPercentage);
-        return positiveFeedbackPercentage
+        console.log("positiveFeedbackPercentage in countPositiveFeedbackPercentage() :", positiveFeedbackPercentage);
+
+        //this.props.positiveFeedbackPercentage = positiveFeedbackPercentage;
+
+        return (positiveFeedbackPercentage); //    ?????????????????????????????
     };
 
     render () {
@@ -111,10 +122,10 @@ class FeedBack extends Component {
                         <li>
                             <h2 className={css.statItem}>
                                 Total:  
-                                <span>{this.totalFeedback}</span>
+                                <span>{this.props.totalFeedback}</span>
                             </h2>
                         </li>  
-                        <li><h2 className={css.statItem}>Positive feedback:  <span>{this.positiveFeedbackPercentage}%</span></h2></li>
+                        <li><h2 className={css.statItem}>Positive feedback:  <span>{this.props.positiveFeedbackPercentage}%</span></h2></li>
                     </ul>
                 </div>
         )
