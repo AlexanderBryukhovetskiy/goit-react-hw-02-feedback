@@ -1,0 +1,12 @@
+/* ul.statistics{
+
+} */
+
+li + li {
+    margin-left: 10px;
+}
+
+.statItem {
+    font-size: 25px;
+    font-weight: 400;
+}

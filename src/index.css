@@ -37,3 +37,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.container {
+    margin: 100px;
+    padding: 20px;
+    display: inline-block;
+    outline: 1px solid orangered;
+}
+

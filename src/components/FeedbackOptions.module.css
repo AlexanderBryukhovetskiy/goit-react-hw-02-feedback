@@ -1,0 +1,22 @@
+.buttonsList {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+button {
+    padding: 1px 3px;
+    font-size: 20px;
+    font-weight: 100;
+    background: rgb(152, 231, 241);
+
+    border: 1px solid darkslategrey;
+    border-radius: 3px;
+}
+button+button {
+    margin-left: 10px;
+}
+
+
+
