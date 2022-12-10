@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/css/main.81d9c028.css",
-    "main.js": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/js/main.f4c6afcb.js",
+    "main.js": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/js/main.deb9fcbf.js",
     "index.html": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/index.html",
     "main.81d9c028.css.map": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/css/main.81d9c028.css.map",
-    "main.f4c6afcb.js.map": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/js/main.f4c6afcb.js.map"
+    "main.deb9fcbf.js.map": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/js/main.deb9fcbf.js.map"
   },
   "entrypoints": [
     "static/css/main.81d9c028.css",
-    "static/js/main.f4c6afcb.js"
+    "static/js/main.deb9fcbf.js"
   ]
 }
