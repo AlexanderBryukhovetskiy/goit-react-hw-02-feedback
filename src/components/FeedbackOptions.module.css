@@ -1,11 +1,14 @@
 .buttonsList {
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 30px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     width: 100%;
 }
 
 button {
+    min-width: 70px;
     padding: 1px 3px;
     font-size: 20px;
     font-weight: 100;
@@ -14,9 +17,7 @@ button {
     border: 1px solid darkslategrey;
     border-radius: 3px;
 }
-button+button {
-    margin-left: 10px;
-}
+
 
 
 
