@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/css/main.81d9c028.css",
-    "main.js": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/js/main.deb9fcbf.js",
+    "main.css": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/css/main.520cc86f.css",
+    "main.js": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/js/main.e1d35452.js",
     "index.html": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/index.html",
-    "main.81d9c028.css.map": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/css/main.81d9c028.css.map",
-    "main.deb9fcbf.js.map": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/js/main.deb9fcbf.js.map"
+    "main.520cc86f.css.map": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/css/main.520cc86f.css.map",
+    "main.e1d35452.js.map": "/AlexanderBryukhovetskiy/goit-react-hw-02-feedback/static/js/main.e1d35452.js.map"
   },
   "entrypoints": [
-    "static/css/main.81d9c028.css",
-    "static/js/main.deb9fcbf.js"
+    "static/css/main.520cc86f.css",
+    "static/js/main.e1d35452.js"
   ]
 }
